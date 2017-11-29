@@ -8,7 +8,7 @@ Things you may want to cover:
 * Ruby version
 ruby-2.4.1
 * System dependencies
-You can check in Gemfile
+Check in Gemfile
 * Configuration
 
 * Database creation
