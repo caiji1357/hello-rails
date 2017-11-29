@@ -6,4 +6,18 @@
   Time to say
   <%= link_to "Goodbye", say_goodbye_path %>!
 </p>
+<p>
+  Time to play:</br>
+  &nbsp Addition: <%= 1+2 %></br>
+  &nbsp Concatenation: <%= "cow"+"boy" %></br>
+  &nbsp  Time in one hour: <%= 1.hour.from_now %></br>
+</p>
+<p>
+  List of all the files:</br>
+  <ul>
+    <% for file in @files %>
+     <li><%= file %></li>
+    <% end %>
+  </ul>
+</p>
 <p>Find me in app/views/say/hello.html.erb</p>
